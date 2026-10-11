@@ -1,0 +1,23 @@
+# STM32 build files
+Debug/
+Release/
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+
+# Local database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Secrets
+.env
